@@ -1,0 +1,47 @@
+.container {
+  width: 100%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+
+}
+.packageBox {
+  width: 90%;
+  /* border: 1px solid black; */
+}
+.packageMap {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 500px;
+  background-image: url("../../assets//world_map_PNG28\ 3.png");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.packageMap div {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+.packageMap div .inputsec {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  border: 1px solid rgb(160, 160, 160);
+  border-radius: 10px;
+}
+.packageMap div .inputsec svg {
+    height: 5vh;
+  width: 100%;
+  font-size: 1.2rem;
+  background-color: #55b0c9;
+}
+.packageMap div div input {
+  padding: 0.5rem;
+  border: none;
+}

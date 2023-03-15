@@ -1,0 +1,21 @@
+.container {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 1rem;
+}
+.container:hover{
+    box-shadow: 5px 5px 5px 5px  rgb(203, 203, 203);
+}
+.image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container div{
+    display: flex;
+    justify-content: center;
+
+}

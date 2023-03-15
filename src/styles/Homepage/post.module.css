@@ -1,0 +1,32 @@
+.container {
+  width: 90%;
+  align-items: center;
+}
+.images img {
+  width: 99%;
+}
+.images:hover {
+  border: 1px solid #55b0c9;
+}
+.nameRate {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-size: 1.5rem;
+}
+.description {
+  font-size: 1rem;
+  padding: .5rem;
+
+}
+.buttons {
+  display: flex;
+  justify-content: center;
+}
+.buttons button {
+  background-color: #55b0c9;
+  color: white;
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: none;
+}

@@ -1,0 +1,22 @@
+.buttons {
+  display: flex;
+  justify-content: space-around;
+  padding: 1rem;
+}
+.buttons button {
+  width: 50%;
+  padding: 0.5rem;
+  border: none;
+  border-radius: 5px;
+  background-color: #55b0c9;
+  color: white;
+}
+img:hover{
+  border: 1px solid #55b0c9;
+}
+.ratings {
+  display: flex;
+}
+.images img{
+  width: 100%;
+}

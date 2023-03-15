@@ -1,0 +1,42 @@
+.menu {
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+  font-size: 1rem;
+  position: relative;
+  top: 40px;
+}
+.hemberge{
+  display: none;
+}
+@media only screen and (min-width : 320px) and (max-width : 460px) {
+
+}
+
+
+
+@media only screen and (max-width : 850px) {
+
+  .menu {
+    display: none;
+  }
+  .hemberge {
+    padding: 5px;
+    width: auto;
+    height: auto;
+    left: 0px;
+    background-color: rgb(231,249,255);
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    font-size: 1rem;
+    position: absolute;
+    top: 80px;
+  z-index: 9999999999999999999999999999999 !important;
+
+    color: white;
+  }
+  .none{
+    display: block !important;
+  }
+}

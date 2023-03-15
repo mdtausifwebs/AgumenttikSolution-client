@@ -1,0 +1,29 @@
+.container {
+  width: 100%;
+}
+.box {
+  width: 90%;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+.head {
+  text-align: center;
+}
+.profile {
+  display: flex;
+  justify-content: space-around;
+}
+.radio {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+}
+.radio input {
+  width: 2%;
+  font-size: 200px;
+}
+.radio input:nth-child(1) {
+  color: blue;
+}

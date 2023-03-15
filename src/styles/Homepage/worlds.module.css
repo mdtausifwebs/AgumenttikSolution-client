@@ -1,0 +1,25 @@
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box {
+  width: 90%;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  background-color: #55b0c9;
+  padding: 1rem;
+}
+.textsection {
+  text-align: center;
+  margin: auto;
+}
+.imageSec {
+  color: white;
+}
+.buttons {
+  align-items: center;
+  margin: auto;
+}

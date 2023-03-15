@@ -1,0 +1,121 @@
+.container {
+  width: 100%;
+}
+.box {
+  width: 90%;
+  display: flex;
+  justify-content: space-around;
+}
+.overviews {
+  width: 50%;
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.head {
+  display: flex;
+  justify-content: flex-start;
+  gap: 2rem;
+  padding: 1rem;
+}
+.head a:nth-child(1) {
+  border-bottom: 5px solid #55b0c9;
+}
+.images img {
+  width: 100%;
+}
+.starting {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.start {
+  display: flex;
+  justify-content: space-around;
+}
+.headline {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.formsec {
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 1rem;
+}
+.formsec .inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.inputBox {
+  border: 1px solid black;
+  padding: 0.5rem;
+  border-radius: 10px;
+}
+.inputBox svg {
+  font-size: 1.5rem;
+}
+.inputBox input {
+  border: none;
+  outline: none;
+}
+.adult {
+  display: flex;
+  justify-content: space-around;
+}
+.adult div {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+.adult div div {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+}
+.adult div div button {
+  width: 100%;
+  padding: 1rem;
+  font-size: 1.5rem;
+}
+.mobnum {
+  display: flex;
+}
+.detalis {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+}
+.detalis div:nth-child(2) {
+  width: 50%;
+  border-bottom: 2px solid black;
+}
+.hrlineOr {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+}
+.hrlineOr div:nth-child(1) {
+  width: 50%;
+  border-bottom: 2px solid black;
+}
+.hrlineOr div:nth-child(3) {
+  width: 50%;
+  border-bottom: 2px solid black;
+}
+
+.booknow button {
+  width: 100%;
+  padding: 0.5rem;
+  font-size: 1.5rem;
+  border-radius: 10px;
+  border: none;
+  background-color: #55b0c9;
+}
