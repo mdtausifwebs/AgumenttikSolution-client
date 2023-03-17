@@ -1,5 +1,7 @@
 import axios from "axios";
 const url = "https://agumenttiksolutionserver.onrender.com/api/v1/";
+// const url = "http://localhost:4000/api/v1/";
+
 const config = {
   headers: {
     "Content-Type": "application/json",
